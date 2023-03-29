@@ -29,6 +29,7 @@ const configService = new ConfigService();
         }
       ]
     }]),
+    AuthModule
   ],
   controllers: [AppController],
   providers: [AppService]
